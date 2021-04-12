@@ -3,6 +3,8 @@
 ## Linear Regression to Predict MPG
 In MechaCar_MPG.csv dataset has mpg test results for 50 protptype MechaCars. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. We will design a mutiple linear regression model to predicts the MPG by using several variales in metrics
 
+![summary_multi_lm](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/summary_multi_lm.jpg)
+
 In the summary of mutiple linear regression following question can be answered:
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -27,7 +29,7 @@ In Suspension_Coil.csv dataset, the weight capacities of multiple suspension coi
 
 2. The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
-![total_summary]() ![lot_summary]()
+![total_summary](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/total_summary.jpg) ![lot_summary](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/lot_summary.jpg)
 
 From the dataframes summary, the following question can be adddressed:
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -40,19 +42,19 @@ From the dataframes summary, the following question can be adddressed:
 ## T-Tests on Suspension Coils
 We will perform t-tests on Suspension_Coil.csv dataset to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. Which null hypothesis is population mean equall to 1500 pounds per square inch, and alternative hypothesis is population mean not equall to 1500 pounds per square inch.
 
-![all-lot-t-test]()
+![all-lot-t-test](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/overall_t_test.jpg)
 
 The T-test for overall lot, from the summary we see the P-value is around 0.06 its greater than the significant level 0.05, which conclude fail to reject the null hypothesis, that means the population mean is no statistical difference to 1500 pounds per square inch.
 
-![Lot1-t-test]()
+![Lot1-t-test](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/lot1_t_test.jpg)
 
 The T-test for lot 1, from the summary we see the P-value is around 1 its greater than the significant level 0.05, which conclude fail to reject the null hypothesis, that means the sample mean is no statistical difference to 1500 pounds per square inch. Also the mean of Plot1 itself is 1500.
 
-![Lot2-t-test]()
+![Lot2-t-test](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/lot2_t_test.jpg)
 
 The T-test for lot 2, from the summary we see the P-value is around 0.61 its greater than the significant level 0.05, which conclude fail to reject the null hypothesis, that means the sample mean is no statistical difference to 1500 pounds per square inch.
 
-![Lot3-t-test]()
+![Lot3-t-test](https://github.com/hayden0098/MechaCar_Statistical_Analysis/blob/main/screenshot/lot3_t_test.jpg)
 
 The T-test for lot 3, from the summary we see the P-value is around 0.04 its smaller than the significant level 0.05, which conclude reject the null hypothesis, that means the sample mean is a statistical difference to 1500 pounds per square inch.
 
